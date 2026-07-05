@@ -1,0 +1,9 @@
+name: single_person
+seed: 42
+snr_db: 0.0    # per-sample SNR of a unit-RCS target at 1 m (range FFT adds ~24 dB gain)
+persons:
+  - range_m: 0.8
+    breathing_rate_bpm: 15.0
+    breathing_amp_mm: 4.0
+    heart_rate_bpm: 72.0
+    heart_amp_mm: 0.35

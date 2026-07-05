@@ -1,0 +1,18 @@
+# TI IWR1443-class 77 GHz FMCW radar parameters
+radar:
+  fc_hz: 77.0e+9          # carrier frequency
+  bandwidth_hz: 3.6e+9    # chirp sweep bandwidth -> ~4.2 cm range resolution
+  n_samples: 256          # ADC samples per chirp (fast time)
+  fs_hz: 5.0e+6           # ADC sampling rate
+  frame_rate_hz: 20.0     # one vitals chirp per frame (slow-time sampling rate)
+  duration_s: 60.0
+
+analysis:
+  min_range_m: 0.3
+  max_range_m: 3.0
+  breathing_band_hz: [0.1, 0.5]   # 6-30 breaths/min
+  heart_band_hz: [0.8, 2.0]       # 48-120 beats/min
+  hampel_window: 7
+  hampel_n_sigma: 3.0
+  window_s: 20.0                  # sliding estimation window
+  hop_s: 1.0

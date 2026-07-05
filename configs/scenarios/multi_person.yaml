@@ -1,0 +1,14 @@
+name: multi_person
+seed: 7
+snr_db: 0.0
+persons:
+  - range_m: 0.8
+    breathing_rate_bpm: 15.0
+    breathing_amp_mm: 4.0
+    heart_rate_bpm: 72.0
+    heart_amp_mm: 0.35
+  - range_m: 1.5
+    breathing_rate_bpm: 19.0
+    breathing_amp_mm: 3.0
+    heart_rate_bpm: 88.0
+    heart_amp_mm: 0.30
